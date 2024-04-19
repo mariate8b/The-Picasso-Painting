@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
 .containers{
 
     display: grid;
@@ -13,6 +20,11 @@
     background-color: rgb(50, 154, 123);
     display: flex; 
     grid-area: square1;
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
 
 }
 .square2{
@@ -20,12 +32,22 @@
     background-color: rgb(50, 154, 123); 
     display: flex;
     grid-area: square2;
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
 }
 .square3{
    
     background-color: rgb(50, 154, 123); 
     display: flex;
     grid-area: square3;
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+           
 
 }
 /* .containers{
@@ -46,11 +68,13 @@
 form{
     margin-bottom: 300px;
     margin-top: 50px;
+    display: flex;
 
 }
 h1{
     margin-top: 100px;
     float: top;
+    display: flex;
     
 }
 .dot {
@@ -65,6 +89,11 @@ h1{
     bottom: 490px;
     left: 150px;
     z-index:  2;
+    display: flex;
+   flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
     
   }
   .dot2{
@@ -80,7 +109,10 @@ h1{
         bottom: 360px;
        right: 100px ;
         z-index:  2;
-        
+        display: flex;
+        flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
       
   }
   .dot3{
@@ -96,6 +128,10 @@ h1{
     bottom: 450px;
    right: 350px ;
     z-index:  2;
+    display: flex;
+    flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
 }
 .dot4{
     height: 25px;
@@ -109,6 +145,10 @@ h1{
     bottom: 500px;
      left: 50px;
     z-index:  2;
+    display: flex;
+    flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
     
 }
 .dot5{
@@ -123,6 +163,10 @@ h1{
     bottom: 650px;
    right: 350px ;
     z-index:  2;
+    display: flex;
+    flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
     
 }
 .triangle-up {
@@ -136,6 +180,13 @@ h1{
 	border-bottom: 400px solid #0e7013;
     right: 200px;
     bottom:590px;
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: top;
+           
+   
+    
 }
 .triangle-up2 {
 	width: 0;
@@ -148,6 +199,10 @@ h1{
 	border-bottom: 300px solid #afff58;
     left: 800px;
     bottom:910px;
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
 }
 
-}
