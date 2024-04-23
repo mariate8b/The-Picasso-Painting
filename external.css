@@ -7,20 +7,15 @@ body{
 .containers{
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (200px,1fr));
+    grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 150px 300px;
     grid-template-areas: 
     "square1 square2 square3"
     "rectangle rectangle rectangle"; 
-    gap: 20px
-}
-@media (max-width: 400px) {
+    gap: 20px;
+    height: 500px; 
 
-        grid-template-columns:1fr;
-        grid-template-rows: 50px 1fr 1fr;
-        grid-template-areas: "square1 square2 square3"
-        "rectangle rectangle rectangle" "dot dot2 dot3 dot4 dot5" "triangle-up2 triangle-up";
-    }
+}
 
 
 /* Top squares */
@@ -208,5 +203,35 @@ h1{
     
 }
 
+@media (max-width: 400px) {
+    .containers {
 
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 150px 300px;
+            grid-template-areas: "square1 square2 square3"
+            "rectangle rectangle rectangle" "dot dot2 dot3 dot4 dot5" "triangle-up2 triangle-up";
+            gap: 20px;
+    }
+    }
 
+@media  (max-width: 1024px) {
+    .containers {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 300px;
+        grid-template-areas: "square1 square2 square3"
+        "rectangle rectangle rectangle" "dot dot2 dot3 dot4 dot5" "triangle-up2 triangle-up";
+        gap: 20px;
+    }
+}
+@media  (min-width: 768px ) {
+    .containers {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 150px 300px;
+            grid-template-areas: "square1 square2 square3"
+            "rectangle rectangle rectangle" "dot dot2 dot3 dot4 dot5" "triangle-up2 triangle-up";
+            gap: 20px;
+        }
+}
